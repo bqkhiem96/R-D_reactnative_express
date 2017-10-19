@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { FlatList, View, Text, StyleSheet } from 'react-native'
 
 const rows = [
-    {id:0,text:'View'},
+    {id:0,text:'Bui Quoc Khiem'},
     {id:1,text:'Text'},
     {id:2,text:'Image'},
     {id:3,text:'ScrollView'},

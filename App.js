@@ -4,6 +4,7 @@ import DisplayCounter from './components/counter'
 import DisplayToggle from './components/toggle'
 import MyScrollView from './components/scrollview'
 import DisplayFlatList from './components/flatlist'
+import DisplaySectionList from './components/sectionlist'
 
 export default class App extends Component { 
   render() {
@@ -12,7 +13,8 @@ export default class App extends Component {
         {/* <DisplayCounter/> */}
         {/* <DisplayToggle/> */}
         {/* <MyScrollView/> */}
-        <DisplayFlatList/>
+        {/* <DisplayFlatList/> */}
+        <DisplaySectionList/>
       </View>
     )
   }
