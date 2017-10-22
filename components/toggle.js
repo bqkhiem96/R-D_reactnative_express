@@ -41,7 +41,7 @@ class DisplayToggle extends Component{
     state = {
         flexDirection: "row",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
     }
     render(){
         const {flexDirection,justifyContent,alignItems} = this.state;
@@ -68,10 +68,12 @@ class DisplayToggle extends Component{
                 options={['flex-start', 'center', 'flex-end', 'stretch']}
                 onChange={(option) => this.setState({alignItems: option})}
               />
+              <Text>Dit me Phu</Text>
               <View style={[styles.layout, layoutStyle]}>
                 <View style={styles.box} />
                 <View style={styles.box} />
                 <View style={styles.box} />
+                <Text>Dit me Phu</Text>
               </View>
             </View>
           )
@@ -84,8 +86,8 @@ const styles = StyleSheet.create({
       flex: 1,
     },
     layout: {
-      flex: 1,
-      backgroundColor: 'rgba(0,0,0,0.05)',
+      // flex: 1,
+      backgroundColor: 'rgba(255,0,0,0.3)',
     },
     box: {
       padding: 25,

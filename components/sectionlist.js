@@ -6,9 +6,9 @@ const sections = [
     id: 0,
     title: 'Basic Components',
     data: [
-      {id: 0, text: 'View'},
-      {id: 1, text: 'Text'},
-      {id: 2, text: 'Image'},
+      {id: 0, text: 'Khiem'},
+      {id: 1, text: 'Chu Be Khiem'},
+      {id: 2, text: 'Chiem Be Khu'},
     ],
     renderItem: ({item}) => {
       return (

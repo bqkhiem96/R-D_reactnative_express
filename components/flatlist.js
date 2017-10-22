@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import { FlatList, View, Text, StyleSheet } from 'react-native'
 
 const rows = [
-    {id:0,text:'Bui Quoc Khiem'},
-    {id:1,text:'Text'},
-    {id:2,text:'Image'},
-    {id:3,text:'ScrollView'},
-    {id:4,text:'ListView'},
+    {id:0,text:'Chu be Khiem'},
+    {id:1,text:'Chu be Dat'},
+    {id:2,text:'Chu be Phu'},
+    {id:3,text:'Chu be Vinh'},
+    {id:4,text:'Chu be Khiem'},
 ]
 const extractKey = ({id}) =>id;
 
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     row:{
         padding: 15,
         margin: 5,
-        backgroundColor:'skyblue',
+        backgroundColor:'blue',
     }
 });
 
